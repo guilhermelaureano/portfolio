@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #010a01;
+}
+
+h1 {
+  @apply text-4xl font-semibold text-zinc-200;
+}
+
+p {
+  @apply text-lg font-mono text-zinc-300;
+}
+
+/* sm640px */
+@media (min-width: 640px) {
+  h1 {
+    @apply text-6xl;
+  }
+  p {
+    @apply text-xl;
+  }
+}
+
+/* md	768px	 */
+@media (min-width: 768px) {
+  h1 {
+    @apply text-7xl;
+  }
+}
+/* lg	1024px */
+@media (min-width: 1024px) {
+  h1 {
+    @apply text-8xl;
+  }
+}
+/* xl	1280px */
+@media (min-width: 1280px) {
+  h1 {
+    @apply text-9xl;
+  }
+  p {
+    @apply text-2xl;
+  }
+}
+/* 2xl	1536px */
+@media (min-width: 1536px) {
+  h1 {
+    @apply text-[240];
+  }
+  p {
+  }
+}
