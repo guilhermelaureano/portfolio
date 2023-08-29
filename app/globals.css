@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 body {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 1rem;
   font-family: "Helvetica Neue", sans-serif;
-  background-color: #010a01;
+  background-color: rgba(0, 0, 0, 0.88);
 }
 
 h1 {
-  @apply text-4xl font-semibold text-zinc-200;
+  @apply text-4xl font-semibold text-zinc-50;
 }
 
 p {

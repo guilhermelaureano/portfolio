@@ -15,10 +15,10 @@ export default function Home() {
 
       <div className="flex items-center justify-center gap-8 pt-6 xl:pt-8">
         <a href={urlGitHub} target="_blank">
-          <GithubOutlined className="text-2xl hover:text-slate-500 text-slate-300" />
+          <GithubOutlined className="text-3xl hover:text-white text-zinc-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-150" />
         </a>
         <a href={urlLinkedin} target="_blank">
-          <LinkedinOutlined className="text-2xl hover:text-slate-500 text-slate-300" />
+          <LinkedinOutlined className="text-3xl hover:text-blue-800 text-zinc-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-150" />
         </a>
       </div>
     </main>
